@@ -1,11 +1,12 @@
 html {
   font-size: 18px;
-  line-height: 1.4;
 }
 
 
 body {
   font-family: Helvetica;
+  line-height: 1.4;
+
 }
 
 .banner {
@@ -63,4 +64,69 @@ nav li{
   font-size: 2rem;
   font-weight: bold;
   line-height: 1.2rem;
+}
+
+
+.services .container {
+  display: flex;
+  justify-content: center;
+  height: 8rem;
+  padding: 3rem 0;
+}
+
+.services .product{
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  padding: 0 6rem;
+  text-align: center;
+}
+
+
+.image_exams img{
+  width: 3.5rem;
+}
+
+.image_ruler img {
+  width: 5rem;
+}
+
+.image_delivery img {
+  width: 5rem;
+}
+
+.info .container {
+  display: flex;
+}
+
+.about_philosphy, .about_appointments {
+  width: 35%;
+}
+
+.about_appointments {
+  padding-left: 5%;
+}
+
+.box_philosphy, .box_appointments {
+  width: 10rem;
+  background-color: cadetblue;
+  font-weight: bold;
+  padding: .5rem 0 .5rem 1.25rem;
+  margin-bottom: 1rem;
+}
+
+
+footer .container {
+
+    display: flex;
+    align-items: center;
+    background-color: azure;
+    margin-top: 5rem;
+    padding: 4rem 0 4rem 4rem;
+
+}
+
+.footer_logo img{
+    height: 1.5rem;
+    padding-right: 1rem;
 }
