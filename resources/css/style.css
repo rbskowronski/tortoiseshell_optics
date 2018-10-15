@@ -51,6 +51,10 @@ nav ul{
   display: flex;
 }
 
+.cell_nav {
+  display: none;
+}
+
 nav li{
   padding: 0 2rem;
 }
@@ -136,18 +140,21 @@ footer .container {
 
 @media only screen and (max-width: 1100px){
 
-  .banner {
-
-    height: 22rem;
-  }
+.banner {
+  height: 22rem;
+}
 
 .container{
   max-width: 100%;
 }
 
-  .header {
-    top: 0;
-  }
+.header {
+  top: 0;
+}
+
+.cell_nav {
+  display: none;
+}
 
 .motto {
   top: 5rem;
@@ -158,7 +165,98 @@ footer .container {
 }
 
 .info {
-  padding-left: 4rem; 
+  padding-left: 4rem;
 }
+
+
+
+}
+
+
+@media only screen and (max-width: 800px){
+
+
+.banner {
+  height: 17rem;
+  background-position: 20%;
+}
+
+.container{
+  max-width: 100%;
+}
+
+.header {
+  top: 0;
+}
+
+.motto {
+  top: 9rem;
+  left: 0;
+  padding: 1rem 0;
+  font-size: 1rem;
+  margin-right: 0;
+  width: 100%;
+  text-align: center;
+}
+
+.header_name {
+  display: none;
+}
+
+nav ul{
+  display: none;
+}
+
+.cell_nav {
+  display: block;
+  color: white;
+}
+
+.services .container {
+  flex-direction: column;
+  margin: 4.77rem 0;
+
+}
+
+.services .product{
+  display: block;
+  padding: 1rem 0;}
+
+
+.info {
+  padding-left: 0;
+}
+
+.info .container {
+  flex-direction: column;
+  align-items: center;
+}
+
+.about_philosphy, .about_appointments {
+  width: 100%;
+  padding: 1rem .5rem 4rem .5rem;
+}
+
+.description {
+  padding-left: .5rem;
+  padding-right: .5rem;
+}
+
+.box_philosphy, .box_appointments {
+  text-align: center;
+  padding: .5rem 0;
+  width: 100%;
+}
+
+footer .container {
+    width: 100%;
+    padding: 4rem 0;
+    justify-content: center;
+  }
+
+.footer_text {
+  display: none;
+}
+
 
 }
