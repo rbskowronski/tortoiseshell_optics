@@ -132,3 +132,33 @@ footer .container {
     height: 1.5rem;
     padding-right: 1rem;
 }
+
+
+@media only screen and (max-width: 1100px){
+
+  .banner {
+
+    height: 22rem;
+  }
+
+.container{
+  max-width: 100%;
+}
+
+  .header {
+    top: 0;
+  }
+
+.motto {
+  top: 5rem;
+  left: 0;
+  padding: 0.75rem 4rem;
+  font-size: 1.33rem;
+  margin-right: 2rem;
+}
+
+.info {
+  padding-left: 4rem; 
+}
+
+}
