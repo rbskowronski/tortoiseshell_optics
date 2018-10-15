@@ -42,7 +42,9 @@ body {
 }
 
 .header_logo img{
+  display: flex;
   height: 1.5rem;
+  align-items: center;
 }
 
 nav ul{
